@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Zadanie3SM
+
+  Created by Szymon Kozłowski on 25/10/2021.
+  
+*/
+
+"Information"="Informacje";
+"The faculty is running %i programs on graduate and undergraduate level."="Wydział prowadzi %i programy na poziomie magisterskim i licencjackim.";
+"image" = "wi-pl";

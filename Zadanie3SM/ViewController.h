@@ -9,6 +9,10 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UIButton *informationButton;
+@property (nonatomic, weak) IBOutlet UIImageView *imageView;
+
+- (IBAction)buttonClicked;
 
 @end
 

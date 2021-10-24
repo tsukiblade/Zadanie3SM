@@ -16,6 +16,7 @@
 		EBFD60212726170D0029C2FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFD60202726170D0029C2FE /* main.m */; };
 		EBFD602B2726170D0029C2FE /* Zadanie3SMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFD602A2726170D0029C2FE /* Zadanie3SMTests.m */; };
 		EBFD60362726170D0029C2FE /* Zadanie3SMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFD60352726170D0029C2FE /* Zadanie3SMUITests.m */; };
+		EBFD604727261C920029C2FE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBFD604927261C920029C2FE /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,11 @@
 		EBFD60312726170D0029C2FE /* Zadanie3SMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Zadanie3SMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFD60352726170D0029C2FE /* Zadanie3SMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zadanie3SMUITests.m; sourceTree = "<group>"; };
 		EBFD60372726170D0029C2FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBFD604527261C520029C2FE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		EBFD604627261C520029C2FE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EBFD604827261C920029C2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EBFD604A27261CA20029C2FE /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EBFD604D27261D8D0029C2FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,7 @@
 				EBFD60122726170B0029C2FE /* SceneDelegate.m */,
 				EBFD60142726170B0029C2FE /* ViewController.h */,
 				EBFD60152726170B0029C2FE /* ViewController.m */,
+				EBFD604927261C920029C2FE /* Localizable.strings */,
 				EBFD60172726170B0029C2FE /* Main.storyboard */,
 				EBFD601A2726170D0029C2FE /* Assets.xcassets */,
 				EBFD601C2726170D0029C2FE /* LaunchScreen.storyboard */,
@@ -221,6 +228,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = EBFD60022726170B0029C2FE;
 			productRefGroup = EBFD600C2726170B0029C2FE /* Products */;
@@ -240,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBFD601E2726170D0029C2FE /* LaunchScreen.storyboard in Resources */,
+				EBFD604727261C920029C2FE /* Localizable.strings in Resources */,
 				EBFD601B2726170D0029C2FE /* Assets.xcassets in Resources */,
 				EBFD60192726170B0029C2FE /* Main.storyboard in Resources */,
 			);
@@ -309,6 +318,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				EBFD60182726170B0029C2FE /* Base */,
+				EBFD604527261C520029C2FE /* pl */,
+				EBFD604D27261D8D0029C2FE /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,8 +328,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				EBFD601D2726170D0029C2FE /* Base */,
+				EBFD604627261C520029C2FE /* pl */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EBFD604927261C920029C2FE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBFD604827261C920029C2FE /* en */,
+				EBFD604A27261CA20029C2FE /* pl */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,6 +349,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -387,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
